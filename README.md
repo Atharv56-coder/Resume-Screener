@@ -185,10 +185,3 @@ pytest test_backend.py
 ```
 
 This verifies that the file parser, fallback scorers, and API routing structures function as expected under various upload payloads.
-
----
-
-## 🔒 Security & Best Practices
-* **Zero Document Retention**: Files uploaded are parsed dynamically in-memory and never stored on the server disk.
-* **Environment Isolation**: The `.env` file in the backend is listed in `.gitignore` to prevent Groq credentials from leaking.
-* **CORS Middleware**: Pre-configured cross-origin rules prevent unauthorized websites from executing requests against your backend services.

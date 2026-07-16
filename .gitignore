@@ -1,10 +1,35 @@
+# Python backend
 backend/__pycache__/
 backend/.venv/
+backend/venv/
 backend/*.pyc
+backend/.env
+backend/.env.*
+backend/*.log
+
+# Frontend dependencies and builds
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
 frontend/.output/
 frontend/.turbo/
 frontend/.DS_Store
+frontend/.env
+frontend/.env.*
+
+# Editor and OS files
 .vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local secrets and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.env
+*.env.*

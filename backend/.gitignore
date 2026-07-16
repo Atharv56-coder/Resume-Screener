@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# Environment variables — NEVER commit this
+.env
+
+# Build / dist
+*.egg-info/
+dist/
+build/
